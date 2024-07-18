@@ -30,6 +30,38 @@ body {
   justify-self: center;
 }
 
+.bigDragon {
+  width: 500px;
+  height: 500px;
+  background: transparent;
+  border: none !important;
+  position: absolute;
+  top: 10%;
+  z-index: 2;
+}
+#dragonPic {
+  width: 100%;
+}
+.bigDragon:active {
+  width: 500px;
+  height: 500px;
+  background: transparent;
+  border: none !important;
+  position: absolute;
+  top: 10%;
+  z-index: 2;
+  filter: invert(75%);
+}
+#dragonPic {
+  width: 100%;
+}
+
+h2 {
+  font-family: monospace;
+  color: white;
+  text-shadow: 1px 1px 10px #ff1a1a, 1px 1px 10px #ff0000;
+}
+
 .rightcol {
   flex: 2;
 }
