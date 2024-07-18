@@ -53,7 +53,7 @@ body {
   position: absolute;
   top: 8%;
   z-index: 2;
-  filter: invert(75%);
+  filter: sepia(100%) hue-rotate(300deg) saturate(580%);
 }
 
 #damDis {
