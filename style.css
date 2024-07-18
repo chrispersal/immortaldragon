@@ -4,7 +4,7 @@ body {
   background-color: #332e2b;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .leftcol {
@@ -27,41 +27,53 @@ body {
 .gamelogo {
   animation: throb 5s ease 0s infinite normal forwards;
   z-index: 1;
-  justify-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .bigDragon {
-  width: 500px;
-  height: 500px;
+  width: 35%;
+  height: 35%;
   background: transparent;
   border: none !important;
   position: absolute;
-  top: 10%;
+  top: 8%;
   z-index: 2;
 }
 #dragonPic {
-  width: 100%;
+  width: 95%;
 }
 .bigDragon:active {
-  width: 500px;
-  height: 500px;
+  width: 35%;
+  height: 35%;
   background: transparent;
   border: none !important;
   position: absolute;
-  top: 10%;
+  top: 8%;
   z-index: 2;
   filter: invert(75%);
 }
-#dragonPic {
-  width: 100%;
-}
 
-h2 {
+#damDis {
+  position: relative;
+  top: 8.5em;
+  left: 4.2em;
   font-family: monospace;
   color: white;
   text-shadow: 1px 1px 10px #ff1a1a, 1px 1px 10px #ff0000;
+  font-size: 3em;
 }
-
+#dpsDis {
+  font-family: monospace;
+  color: white;
+  text-shadow: 1px 1px 10px #ff1a1a, 1px 1px 10px #ff0000;
+  top: 13em;
+  left: 8em;
+  font-size: 1.5em;
+  position: relative;
+}
 .rightcol {
   flex: 2;
 }
