@@ -1,0 +1,35 @@
+body {
+  background-image: url("images/cavebg.jpg");
+  background-size: cover;
+  background-color: #332e2b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.leftcol {
+  flex: 1;
+}
+
+@keyframes throb {
+  0% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+.gamelogo {
+  animation: throb 5s ease 0s infinite normal forwards;
+  z-index: 1;
+  justify-self: center;
+}
+
+.rightcol {
+  flex: 2;
+}
