@@ -76,4 +76,38 @@ body {
 }
 .rightcol {
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#upgradeListTitle {
+  font-family: "UnifrakturCook", cursive;
+  font-size: 3em;
+  line-height: 20%;
+  color: goldenrod;
+  text-shadow: 1px 1px 10px #604720, 1px 1px 10px #604720;
+}
+
+button.upgrade {
+  font-family: "UnifrakturCook", cursive;
+  font-size: 2em;
+  color: goldenrod;
+  background-color: #33271f;
+  border-color: goldenrod;
+  margin: 0.5%;
+  width: 15em;
+}
+
+button.resetstats {
+  background-color: #700000;
+  font-family: monospace;
+  color: white;
 }

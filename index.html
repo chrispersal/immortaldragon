@@ -6,10 +6,15 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
     <link rel="icon" href="./images/favicon.ico">
+    <!-- Getting the blackletter font for the upgrade buttons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
     <title>Kill the Immortal Dragon</title>
   </head>
   <body>
     <div class="leftcol">
+      <!-- Left side, containing logo, the dragon, the score, and hopefully the dps. -->
       <img
         class="gamelogo"
         src="images/dragonglow.png"
@@ -26,7 +31,25 @@
       </div>
     </div>
     <div class="rightcol">
-        <p>Actual placeholder text this time.</p>
+      <!-- Right side, containing the upgrade shop. -->
+        <p id="upgradeListTitle">🙟UPGRADE YOUR ARSENAL🙝</p>
+        <button class="upgrade" id="upg1">Pikeman</button>
+        <br>
+        <button class="upgrade" id="upg2">Longbowman</button>
+        <br>
+        <button class="upgrade" id="upg3">Cavalryman</button>
+        <br>
+        <button class="upgrade" id="upg4">Mage</button>
+        <br>
+        <button class="upgrade" id="upg5">Ballista</button>
+        <br>
+        <button class="upgrade" id="upg6">Trebuchet</button>
+        <br>
+        <button class="upgrade" id="upg7">Siege Engine</button>
+        <br>
+        <button class="upgrade" id="upg8">Powerful Sorcerer</button>
+        <br>
+        <button class="resetstats">Full Heal Dragon</button>
     </div>
 </div>
   </body>
